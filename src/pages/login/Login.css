@@ -1,0 +1,87 @@
+/* A mae de todos:  */
+.main_login{
+    display: flex;
+    height: 100vh;
+}
+
+/* Banner da esquerda:  */
+.banner{
+    background-image: url(../../assents/img/banner.png);
+    flex: 1;
+    background-color: #B51D44;
+
+    /* Modificar algumas caracteristicas da imagem */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Form de login da direita:  */
+.section_login{
+    flex: 1;
+    background-color: #FFFFFF;
+
+    /* Centraliza o campo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section_login img{
+    width: 290px;   
+}
+
+.form_login{
+    color: white;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.form_login h1{
+    
+    /* Deixa o titulo maisculo */
+    text-transform: uppercase;
+    
+}
+
+.campo_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.campos_login{
+    width: 100%;
+}
+
+.campo_input input{
+    height: 30px;
+    padding: 1px 10px;
+    outline: none;
+    margin-top: 7px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-color: black;
+    font-size: medium;
+}
+.div_para_esqueceu_a_senha a{
+    color: gray;
+    font-size: small;
+}
+/* RESPONSIVIDADE */
+/* Me de algumas caracteristicas a partir de um tamanho de tela */
+@media screen and (max-width: 768px){
+    .banner{
+        /* desaparece p banner */
+        display: none;
+    }
+}
