@@ -22,7 +22,7 @@
 .div_para_imagem {
     height: 500px;
     width: 50%;
-    background-image: url(../../assents/img/bannerdois.png);
+    background-image: url(../../assents/img/bannerquatro.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -50,12 +50,25 @@
     border-top: none;
     border-right: none;
     border-color: black;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.div_para_colocar_um_embaixo_do_outro select {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-color: black;
+    margin-bottom: 75px;
     padding-left: 10px;
     outline: none;
 }
 
 /* Me de algumas caracteristicas a partir de um tamanho de tela */
 @media screen and (max-width: 768px){
-    
+    .div_para_imagem{
+        /* desaparece p banner */
+        display: none;
+    }
 }

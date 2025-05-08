@@ -1,17 +1,17 @@
-import "./ListagemEventos.css"
-import { Fragment } from "react";
-import Header from "../../components/header/Header"
-import Footer from "../../components/footer/Footer";
-import BotaoLogin from "../../components/botaoLogin/BotaoLogin";
+import "./ListagemUsuarios.css"
+import Header from "../../components/header/Header";
 import Lista from "../../components/lista/Lista";
+import Footer from "../../components/footer/Footer";
+import { Fragment } from "react";
+import BotaoLogin from "../../components/botaoLogin/BotaoLogin";
 
-const ListagemEventos = () => {
-    return (
+const ListagemUsuarios = () => {
+    return(
         <Fragment>
             <Header />
             <main>
                 <div className="div_para_titulo">
-                    <h1> Cadastro tipo de evento</h1>
+                    <h1> Cadastro tipo de usuário</h1>
                     <hr />
                 </div>
                 <div className="apenas_para_ficar_do_lado">
@@ -24,10 +24,10 @@ const ListagemEventos = () => {
                     </div>
                 </div>
             </main>
-            <Lista nomeTitulo ="Lista tipo de evento" nomeDaTabela="Titulo" nomeDaSegundaTabela="Tipo Evento"/>
+            <Lista nomeTitulo ="Lista tipo de usuário" nomeDaTabela="Titulo" nomeDaSegundaTabela="Tipo de usuário"/>
             <Footer />
         </Fragment>
     )
 }
 
-export default ListagemEventos;
+export default ListagemUsuarios;

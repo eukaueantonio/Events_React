@@ -22,7 +22,7 @@
 .div_para_imagem {
     height: 500px;
     width: 50%;
-    background-image: url(../../assents/img/bannerdois.png);
+    background-image: url(../../assents/img/bannertres.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -57,5 +57,8 @@
 
 /* Me de algumas caracteristicas a partir de um tamanho de tela */
 @media screen and (max-width: 768px){
-    
+    .div_para_imagem{
+        /* desaparece p banner */
+        display: none;
+    }
 }

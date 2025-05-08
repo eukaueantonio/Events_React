@@ -29,12 +29,12 @@
 }
 
 .section_login img{
-    width: 290px;   
+    width: 300px;   
 }
 
 .form_login{
     color: white;
-    width: 70%;
+    width: 300px;
     height: 50%;
     display: flex;
     justify-content: space-around;
@@ -75,6 +75,11 @@
 .div_para_esqueceu_a_senha a{
     color: gray;
     font-size: small;
+}
+
+.div_para_esqueceu_a_senha{
+    margin-bottom: 20px;
+
 }
 /* RESPONSIVIDADE */
 /* Me de algumas caracteristicas a partir de um tamanho de tela */
